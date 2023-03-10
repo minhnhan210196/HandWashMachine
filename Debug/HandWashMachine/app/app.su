@@ -1,2 +1,6 @@
-../HandWashMachine/app/app.c:22:6:app_init	16	static
-../HandWashMachine/app/app.c:26:13:Hand_Wash_Machine_Process	24	static
+../HandWashMachine/app/app.c:33:6:app_init	16	static
+../HandWashMachine/app/app.c:42:13:Hand_Wash_Machine_Process	24	static
+../HandWashMachine/app/app.c:64:13:Read_Sensor_Process	16	static
+../HandWashMachine/app/app.c:69:13:Display_Process	16	static
+../HandWashMachine/app/app.c:74:13:Bluetooth_Process	16	static
+../HandWashMachine/app/app.c:79:13:Read_Val_Process	16	static

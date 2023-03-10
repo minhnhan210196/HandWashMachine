@@ -25,6 +25,7 @@ RM := rm -rf
 -include HandWashMachine/board/i2c/subdir.mk
 -include HandWashMachine/board/flash/subdir.mk
 -include HandWashMachine/board/adc/subdir.mk
+-include HandWashMachine/board/subdir.mk
 -include HandWashMachine/app/handwashmachine/subdir.mk
 -include HandWashMachine/app/subdir.mk
 -include Drivers/STM32F1xx_HAL_Driver/Src/subdir.mk

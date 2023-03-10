@@ -7,6 +7,7 @@
 
 #ifndef BOARD_ADC_ADC_H_
 #define BOARD_ADC_ADC_H_
+#include "stdint.h"
 
 typedef struct BSP_Adc_t BSP_Adc;
 
@@ -17,9 +18,9 @@ struct BSP_Adc_t{
 	uint8_t channel;
 };
 
-void adc_init(BSP_Adc *p_adc,uint8_t channel,uint32_t vref,uint32_t gain);
+void bsp_adc_init(BSP_Adc *p_adc,uint8_t channel,uint32_t vref,uint32_t gain);
 
-uint32_t adc_read(BSP_Adc *p_adc);
+uint32_t bsp_adc_read(BSP_Adc *p_adc);
 
 
 #endif /* BOARD_ADC_ADC_H_ */

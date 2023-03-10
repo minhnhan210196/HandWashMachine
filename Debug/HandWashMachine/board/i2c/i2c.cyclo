@@ -1,0 +1,7 @@
+i2c.c:16:6:i2c_init	1
+i2c.c:22:6:i2c_write	1
+i2c.c:27:6:i2c_read	1
+i2c.c:34:6:HAL_I2C_MasterRxCpltCallback	2
+i2c.c:40:6:HAL_I2C_MasterTxCpltCallback	2
+i2c.c:46:6:i2c_writeed	1
+i2c.c:49:6:i2c_readed	1

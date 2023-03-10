@@ -1,0 +1,2 @@
+../HandWashMachine/board/adc/adc.c:11:6:bsp_adc_init	24	static
+../HandWashMachine/board/adc/adc.c:17:10:bsp_adc_read	16	static

@@ -28,6 +28,7 @@ Drivers/STM32F1xx_HAL_Driver/Src \
 HandWashMachine/app \
 HandWashMachine/app/handwashmachine \
 HandWashMachine/board/adc \
+HandWashMachine/board \
 HandWashMachine/board/flash \
 HandWashMachine/board/i2c \
 HandWashMachine/board/io \

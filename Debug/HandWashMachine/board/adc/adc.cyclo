@@ -1,0 +1,2 @@
+adc.c:11:6:bsp_adc_init	1
+adc.c:17:10:bsp_adc_read	1
