@@ -1,0 +1,2 @@
+../HandWashMachine/app/app.c:22:6:app_init	16	static
+../HandWashMachine/app/app.c:26:13:Hand_Wash_Machine_Process	24	static
