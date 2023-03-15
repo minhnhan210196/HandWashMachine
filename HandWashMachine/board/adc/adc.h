@@ -19,7 +19,8 @@ struct BSP_Adc_t{
 };
 
 void bsp_adc_init(BSP_Adc *p_adc,uint8_t channel,uint32_t vref,uint32_t gain);
-
+int bsp_adc_start(BSP_Adc *p_adc);
+int bsp_adc_stop(BSP_Adc *p_adc);
 uint32_t bsp_adc_read(BSP_Adc *p_adc);
 
 

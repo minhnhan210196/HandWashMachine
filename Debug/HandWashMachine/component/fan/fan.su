@@ -1,0 +1,3 @@
+../HandWashMachine/component/fan/fan.c:14:6:fan_init	16	static
+../HandWashMachine/component/fan/fan.c:20:13:fan_on_impl	16	static
+../HandWashMachine/component/fan/fan.c:23:13:fan_off_impl	16	static

@@ -1,0 +1,3 @@
+../HandWashMachine/component/val/val.c:12:6:val_init	16	static
+../HandWashMachine/component/val/val.c:16:6:val_update	16	static
+../HandWashMachine/component/val/val.c:19:10:val_get	16	static

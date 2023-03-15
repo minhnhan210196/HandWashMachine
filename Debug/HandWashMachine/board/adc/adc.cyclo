@@ -1,2 +1,5 @@
-adc.c:11:6:bsp_adc_init	1
-adc.c:17:10:bsp_adc_read	1
+adc.c:17:6:bsp_adc_init	1
+adc.c:22:5:bsp_adc_start	2
+adc.c:30:5:bsp_adc_stop	1
+adc.c:34:10:bsp_adc_read	1
+adc.c:39:6:HAL_ADC_ConvCpltCallback	2

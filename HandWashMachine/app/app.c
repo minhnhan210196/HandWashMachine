@@ -62,7 +62,9 @@ static void Hand_Wash_Machine_Process(void *arg){
 	}
 }
 static void Read_Sensor_Process(void *arg){
+	HandWashMachine *p_hwm = (HandWashMachine*) arg;
 	for(;;){
+
 		vTaskDelay(1);
 	}
 }
@@ -77,7 +79,9 @@ static void Bluetooth_Process(void *arg){
 	}
 }
 static void Read_Val_Process(void* arg){
+	HandWashMachine *p_hwm = (HandWashMachine*) arg;
 	for(;;){
-		vTaskDelay(1);
+		val_update(p_hwm->p_val);
+		vTaskDelay(pdMS_TO_TICKS(100));
 	}
 }

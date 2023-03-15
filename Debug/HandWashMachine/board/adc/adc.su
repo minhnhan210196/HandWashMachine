@@ -1,2 +1,5 @@
-../HandWashMachine/board/adc/adc.c:11:6:bsp_adc_init	24	static
-../HandWashMachine/board/adc/adc.c:17:10:bsp_adc_read	16	static
+../HandWashMachine/board/adc/adc.c:17:6:bsp_adc_init	24	static
+../HandWashMachine/board/adc/adc.c:22:5:bsp_adc_start	16	static
+../HandWashMachine/board/adc/adc.c:30:5:bsp_adc_stop	16	static
+../HandWashMachine/board/adc/adc.c:34:10:bsp_adc_read	16	static
+../HandWashMachine/board/adc/adc.c:39:6:HAL_ADC_ConvCpltCallback	16	static
